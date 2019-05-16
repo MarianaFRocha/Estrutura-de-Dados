@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include"tad_palavras.h"
+#include"tad_indice.h"
+
+int main()
+{
+	palavra p,q;
+	iniciarPalavra(&p);
+	criarPalavra(&p, 'o');
+	criarPalavra(&p, 'i');
+	imprimiPalavra(p);
+	printf("\n\n");
+	iniciarPalavra(&q);
+	criarPalavra(&q, 'o');
+	criarPalavra(&q, 'i');
+	imprimiPalavra(q);
+
+	if(repetidos(p,q)==OK)
+		printf("\n\nOK");		
+
+}
