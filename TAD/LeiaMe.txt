@@ -1,0 +1,8 @@
+Neste e nos demais laboratórios, o entendimento de códigos em C faz parte dos exercícios.
+
+Para o Laboratório02_TAD:
+
+(1) Interpretar, compreender, compilar os códigos descritos nos arquivos "vetorint.h" e "Lab02_TAD.c". Executar o programa "Lab02_TAD.c"
+
+(2) Implementar as funções ainda não implementadas do arquivo "vetorint.h". Alterar
+e executar o arquivo "Lab02_TAD.c" para que as funções implementadas sejam testadas.
