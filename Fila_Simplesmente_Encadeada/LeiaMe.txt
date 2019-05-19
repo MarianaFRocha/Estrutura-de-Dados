@@ -1,7 +1,0 @@
-Fazer os Exercícios (02.12) e, em seguida, o exercício (02.11).
-
-Usar o código do último laboratório como base.
-
-Implementar e usar as funções de remoção dadas na última aula teórica.
-
-
