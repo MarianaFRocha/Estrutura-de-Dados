@@ -1,0 +1,12 @@
+Neste e nos demais laboratórios, o entendimento de códigos em C faz parte dos exercícios.
+Neste e nos demais laboratórios, toda entrada e saída deverá ser feita via arquivos.
+
+Para o Laboratório01_Vetores_Dinamicos:
+
+(1) Interpretar, compreender, compilar e executar os códigos descritos nos arquivos "escreve_int.c" e "leitura_int.c" do diretório "ES_Arquivos".
+
+(2) Interpretar, compreender, compilar e executar o código descrito no arquivo "leitura_int_dinamico.c".
+Em seguinda, realizar as atividades propostas no final do mesmo arquivo.
+
+
+
