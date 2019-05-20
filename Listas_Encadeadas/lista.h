@@ -62,7 +62,7 @@ int Leitura_Arquivo_Inteiros(char *nome_arquivo, lista *p_L, int *tamanho)
 
 
 
-//aloca espaco de memoria para no' apontado por L e armazena chave
+//aloca espaco de memoria para no apontado por L e armazena chave
 status alocar_celula(lista *p_L, dado chave)
 {
 	lista L = (lista) malloc(sizeof(celula));
@@ -87,7 +87,7 @@ status iniciar_lista(lista *p_L)
 
 
 
-//retona TRUE se lista L esta' vazia
+//retona TRUE se lista L esta vazia
 bool lista_vazia(lista L)
 {
 	return(L == NULL) ? TRUE : FALSE;
@@ -97,7 +97,7 @@ bool lista_vazia(lista L)
 
 
 
-//insere no' no final da lista apontada por p_L e armazena chave no novo no'
+//insere no no final da lista apontada por p_L e armazena chave no novo no
 status inserir_final_lista(lista *p_L, dado chave)
 {
 	lista L, tmplista;
@@ -139,7 +139,7 @@ int quantidade_elementos_lista(lista L)
 	return cont;
 }
 
-//insere no' no inicio da lista apontada por p_L e armazena chave no novo no'
+//insere no no inicio da lista apontada por p_L e armazena chave no novo no
 status inserir_inicio_lista(lista *p_L, dado chave)
 {	
 	lista L;
