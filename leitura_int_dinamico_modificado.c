@@ -21,9 +21,9 @@ int main(int argc, char *argv[])
   {
 	FILE *arquivo; 
     int *numero;
-    int j, k, lidos = 10;//k=tamanho final do vetor dinamico, sem as repetições
+    int j, k, lidos = 10;//k=tamanho final do vetor dinamico, sem as repetiÃ§Ãµes
 
-	arquivo=fopen("arquivo_final","w"); //Abrindo o arquivo onde será escrito o vetor final do exercicio 3	
+	arquivo=fopen("arquivo_final","w"); //Abrindo o arquivo onde serÃ¡ escrito o vetor final do exercicio 3	
 
     if(argc < 3) //nome do arquivo de entrada deve ser passado na chamada do programa
   	{
@@ -60,7 +60,7 @@ int main(int argc, char *argv[])
 
 
 // Dado um arquivo de entrada,
-// retorna, via passagem por referência um array de inteiros e o seu tamanho
+// retorna, via passagem por referÃªncia um array de inteiros e o seu tamanho
 int Leitura_Dinamica_Arquivo_Inteiros(char *nome_arquivo1, char *nome_arquivo2, int *numeros[], int *tamanho)
 {
     FILE *arquivo1, *arquivo2;
@@ -74,7 +74,7 @@ int Leitura_Dinamica_Arquivo_Inteiros(char *nome_arquivo1, char *nome_arquivo2, 
 	fscanf(arquivo2, "%d", &j); //primeira informacao do arquivo eh a quantidade de inteiros que ele contem
 	*tamanho = i+j; //Soma o tamanho dos dois arquivos
 	int *ptr = (int *) malloc((*tamanho) * sizeof(int));
-	if(ptr == NULL) return 0; //memoria não alocada
+	if(ptr == NULL) return 0; //memoria nÃ£o alocada
 	while (fscanf(arquivo1, "%d", &ptr[lidos]) == 1) //Leitura dos inteiros do arquivo 1
 	{ 
 		lidos++;
@@ -129,33 +129,10 @@ int TiraRepetido(int *a[], int array_size)
 		v[k++]=(*a)[i];
 
 	int *vet=(int*)malloc((k)*(sizeof(int))); // aloca memoria adequada para o novo vetor
-	for(i=0;i<k;i++) //copia os numeros para o novo espaço de memoria
+	for(i=0;i<k;i++) //copia os numeros para o novo espaÃ§o de memoria
 	{
 		vet[i]=v[i];
 	}
 	*a=vet; //retorna o vetor
 	return k; //o novo tamanho do vetor
 }
-
-/* Atividade 01
-Execute o programa acima e compreenda, linha por linha,  as funcoes
-"main" e "Leitura_Dinamica_Arquivo_Inteiros".
-*/
-
-
-/* Atividade 02
-Esquematize o comportamento da memoria, principalmente na chamada
-da funcao "Leitura_Dinamica_Arquivo_Inteiros" 
- */
-
-
-/* Atividade 03
-Altere o programa acima para que dois vetores dinâmicos sejam lidos 
-de arquivos diferentes e crie um terceiro vetor com o resultado da 
-união dos dois primeiros. Escreva o resultado em um arquivo. 
-OBS: A união não deve conter números repetidos.
-*/
-
-
-
-
