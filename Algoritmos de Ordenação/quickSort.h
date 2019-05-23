@@ -1,4 +1,6 @@
 #include <stdio.h>
+
+
 void quickSort(int *c, int p, int r){
 
     if (p<r){
