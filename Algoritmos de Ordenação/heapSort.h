@@ -1,7 +1,4 @@
 
-///posição 0 não ta sendo usada, por isso os dois primeiros valores ficam errados.
-// agora funciona pra zero, todos ficam certos
-
 
 void subir (int *heap, int i)
 {
