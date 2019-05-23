@@ -1,0 +1,12 @@
+Quantidade de chaves: 160000
+Maior chave: 319999
+Limite de tempo: 1200 segundos
+Tempo absoluto dos algoritmos(milisegundos):
+BubbleSort: BubbleSort: 154320.000000    
+InsertionSort:   
+HeapSort: 99.000000    
+SelectionSort: 48948.000000   
+QuickSort: 39.000000  
+ShellSort: 14.000000  
+MergeSort: 26.000000  
+CountingSort: 3.000000  

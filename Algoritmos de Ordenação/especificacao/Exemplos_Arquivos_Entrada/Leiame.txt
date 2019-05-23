@@ -1,0 +1,4 @@
+Nos arquivos de entrada, 
+o primeiro inteiro (ou a primeira linha) 
+determina a quantidade a seguir de 
+inteiros a serem lidos e ordenados.

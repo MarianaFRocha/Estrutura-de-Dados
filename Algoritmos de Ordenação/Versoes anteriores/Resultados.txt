@@ -1,0 +1,81 @@
+Quantidade de chaves: 10000
+Maior chave: 19998
+Limite de tempo: 1200 segundos
+Tempo absoluto dos algoritmos(milisegundos):
+BubbleSort: 0,510
+InsertionSort: 0,221
+HeapSort:    0,002
+SelectionSort: 0,162
+QuickSort: 0
+ShellSort: 0
+MergeSort: 0,001
+CountingSort: 0
+
+Quantidade de chaves: 40000
+Maior chave: 79999
+Limite de tempo: 1200 segundos
+Tempo absoluto dos algoritmos(milisegundos):
+BubbleSort: 8,874
+InsertionSort: 3,041
+HeapSort:0,011
+SelectionSort: 2,514
+QuickSort: 0
+ShellSort: 0,001
+MergeSort: 0,005
+CountingSort: 0
+
+Quantidade de chaves: 160000
+Maior chave: 319999
+Limite de tempo: 1200 segundos
+Tempo absoluto dos algoritmos(milisegundos):
+BubbleSort: 157,860
+InsertionSort: 51,258
+HeapSort: 0,052
+SelectionSort: 43,969
+QuickSort: 0,001
+ShellSort: 0,008
+MergeSort: 0,023
+CountingSort: 0,003
+
+Quantidade de chaves: 640000
+Maior chave: 1279997
+Limite de tempo: 1200 segundos
+Tempo absoluto dos algoritmos(milisegundos):
+BubbleSort: 2500,302
+InsertionSort: 0,800
+HeapSort: 0,441
+SelectionSort:  
+QuickSort:   
+ShellSort:   
+MergeSort:   
+CountingSort: 
+
+Quantidade de chaves: 2560000
+Maior chave: 1279997
+Limite de tempo: 1200 segundos
+Tempo absoluto dos algoritmos(milisegundos):
+BubbleSort:  
+InsertionSort:   
+HeapSort: 2325.000000  
+SelectionSort:  
+QuickSort:   
+ShellSort:   
+MergeSort:   
+CountingSort: 
+
+Quantidade de chaves: 10240000
+Maior chave: 1279997
+Limite de tempo: 1200 segundos
+Tempo absoluto dos algoritmos(milisegundos):
+BubbleSort:  
+InsertionSort:   
+HeapSort: 7900.000000  
+SelectionSort:  
+QuickSort:   
+ShellSort:   
+MergeSort:   
+CountingSort: 
+
+
+
+
