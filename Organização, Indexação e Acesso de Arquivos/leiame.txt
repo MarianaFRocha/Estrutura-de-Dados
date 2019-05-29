@@ -1,0 +1,6 @@
+O objetivo deste trabalho consiste em um estudo da complexidade de desempenho dos algoritmos de inserção, remoção, consulta e reorganização para os seguintes métodos de acesso e organização de arquivos: 
+(1) arquivo de registros desordenados,
+(2) arquivo de registros ordenados, 
+(3) arquivo de registros desordenados com índice primario e
+(4) arquivo de registros ordenados com índice primario.
+Usaremos o campo RA como chave primaria e acrescentaremos arquivos binarios (índices primarios) para indexação por RA dos arquivos de registros desordenados e ordenados.
