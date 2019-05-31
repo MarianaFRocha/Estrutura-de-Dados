@@ -1,13 +1,3 @@
-/*
-ATUALIZAÇÃO: (Commit)
-
-Antigo:
-1. A funcao adicionarAluno possui adição de RA aleatório (funcional mal)
-
-Novo:
-1.
-
-*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
