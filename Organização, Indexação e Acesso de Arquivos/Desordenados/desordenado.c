@@ -32,34 +32,31 @@ void le_script();
 int main()
 {
 
-
-   // printf("%d",n);
-
-	clock_t t0, tf;
-  	double tempo_gasto;
-  	t0 = clock();
+  clock_t t0, tf;
+  double tempo_gasto;
+  t0 = clock();
 
 
-      int   comp_reg;
-      int num_reg= TAM_MAX ;/*editar na biblioteca*/
-      Aluno a[num_reg], b; //cria o vetor do tamanho de numero de registros
+  int   comp_reg;
+  int num_reg= TAM_MAX ;/*editar na biblioteca*/
+  Aluno a[num_reg], b; //cria o vetor do tamanho de numero de registros
 
 
-	char linha[200];//Escolher tamanho adequado p linha /PS: nao funciona com ponteiro pois na linha 50 usa-se sizeof(linha)
-	char *nome, *ult_nome, *nota1, *nota2, *nota3, *ra_aux;
-	FILE *arq;
+   char linha[200];//Escolher tamanho adequado p linha /PS: nao funciona com ponteiro pois na linha 50 usa-se sizeof(linha)
+   char *nome, *ult_nome, *nota1, *nota2, *nota3, *ra_aux;
+   FILE *arq;
 
-	int num=0;
+   int num=0;
 
     geraArquivo();
 
-      /*Captura dados no txt*/
-	arq = fopen("dados.txt", "r");
+   /*Captura dados no txt*/
+   arq = fopen("dados.txt", "r");
 
 	if(arq == NULL)
 			printf("Erro, nao foi possivel abrir o arquivo\n");
 	else
-		while((num<num_reg)&&(fgets(linha, sizeof(linha), arq))!=NULL )
+	while((num<num_reg)&&(fgets(linha, sizeof(linha), arq))!=NULL )
         {
 
             /*Separa dados do txt pelo separador &*/
