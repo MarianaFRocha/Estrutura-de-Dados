@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Teste Git
-
 // Prototipo das funcoes
 int Leitura_Dinamica_Arquivo_Inteiros(char *nome_arquivo1, char *nome_arquivo2, int *numeros[], int *tamanho);
 void SelectionSort(int a[], int array_size);

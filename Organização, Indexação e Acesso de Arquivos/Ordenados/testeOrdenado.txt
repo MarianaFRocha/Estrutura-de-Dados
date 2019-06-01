@@ -1,0 +1,39 @@
+Adicionar Aluno 
+
+Registros		Tempo(segundos)
+200			0.1745
+1000			0.6548
+5000			0.9220
+25000			38.516
+100000			
+
+Inserção 
+
+Registros		Tempo(segundos)
+200			0.00335
+1000			0.00604
+5000			0.02748
+25000			0.16341
+
+100000			
+
+
+Remoção 
+
+Registros		Tempo(segundos)
+200			0.00125
+1000			0.00137
+5000			0.00156
+25000			0.06721
+100000	
+
+Reorganizacao
+
+Registros		Tempo(segundos)
+200			0.04609
+1000			0.20687
+5000			0.94163
+25000			4.58468
+100000
+
+
